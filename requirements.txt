@@ -1,0 +1,16 @@
+streamlit==1.38.0
+pandas==2.2.2
+numpy==1.26.4
+sqlite-utils==3.36
+sqlalchemy==2.0.32
+bcrypt==4.1.2
+
+
+🔑 Why these packages?
+
+streamlit → Web app framework (UI, dashboards).
+pandas → Handle tabular data (food listings, claims, reports).
+numpy → Needed by pandas & for data manipulation.
+sqlite-utils → Utilities for working with SQLite databases (optional but handy).
+sqlalchemy → Higher-level DB management if you want ORM-style queries.
+bcrypt → Secure password hashing (instead of storing plain text).
